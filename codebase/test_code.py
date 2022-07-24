@@ -8,6 +8,7 @@ from . import code
     [
         (None, "a"),
         (True, "b"),
+        (False, "c"),
     ],
 )
 def test_code(arg, expected):
